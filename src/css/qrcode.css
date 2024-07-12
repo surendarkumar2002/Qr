@@ -80,3 +80,22 @@ button{
     text-decoration: none;
     color: #3498db;
 }
+
+
+@media screen and (max-width:480px){
+    .btn-dis{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .down-btn{
+        width: 220px;
+        font-size: 16px;
+    }
+    .gn-btn{
+        width: 220px;
+        font-size: 16px;
+    }
+}

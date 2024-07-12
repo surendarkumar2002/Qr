@@ -70,10 +70,12 @@ const QrCode = () => {
            placeholder="Enter the size of img"
            onChange={(e)=>setQrSize(e.target.value)}
            />
-          <button className="gn-btn" disabled={loading} onClick={generate}>
+         <div className="btn-dis">
+         <button className="gn-btn" disabled={loading} onClick={generate}>
             Generate QR Code
           </button>
           <button className="down-btn" onClick={downloadQr}>Download QR Code</button>
+         </div>
         </div>
         <p className="footer">
           Desingned by{" "}
